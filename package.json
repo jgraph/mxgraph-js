@@ -1,0 +1,26 @@
+{
+    "name": "mxgraph",
+    "version": "3.4.0.1",
+    "description": "mxGraph is a fully client side JavaScript diagramming library. It is the underlying technology that powers the drawing functionality that you see in https://www.draw.io.",
+    "private": true,
+    "main": "javascript/mxClient.js",
+    "dependencies": {
+    },
+    "devDependencies": {
+    },
+    "scripts": {
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jgraph/mxgraph-js.git"
+    },
+    "author": {
+        "name": "JGraph Limited",
+        "email": "support@jgraph.com"
+    },
+    "license": "mxGraph",
+    "bugs": {
+        "url": "https://github.com/jgraph/mxgraph-js/issues"
+    },
+    "homepage": "https://github.com/jgraph/mxgraph-js"
+}
