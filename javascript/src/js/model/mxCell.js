@@ -767,6 +767,24 @@ mxCell.prototype.setAttribute = function(name, value)
 };
 
 /**
+ * Function: hasAttribute
+ *
+ * Returns if attribute exists on the user object if it is an XML node, otherwise returns false.
+ *
+ * Parameters:
+ *
+ * name - Name of the attribute whose existence should be checked.
+ */
+mxCell.prototype.hasAttribute = function(name)
+{
+	var userObject = this.getValue();
+
+	return (userObject != null &&
+		userObject.nodeType == mxConstants.NODETYPE_ELEMENT) ?
+		userObject.hasAttribute(name) : false;
+};
+
+/**
  * Function: clone
  *
  * Returns a clone of the cell. Uses <cloneValue> to clone
