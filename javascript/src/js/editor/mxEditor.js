@@ -1,6 +1,6 @@
 /**
- * Copyright (c) 2006-2015, JGraph Ltd
- * Copyright (c) 2006-2015, Gaudenz Alder
+ * Copyright (c) 2006-2019, JGraph Ltd
+ * Copyright (c) 2006-2019, draw.io AG
  */
 /**
  * Class: mxEditor
@@ -655,7 +655,7 @@ mxEditor.prototype.defaultEdgeStyle = null;
 mxEditor.prototype.defaultGroup = null;
 
 /**
- * Variable: graphRenderHint
+ * Variable: groupBorderSize
  *
  * Default size for the border of new groups. If null,
  * then then <mxGraph.gridSize> is used. Default is
@@ -867,9 +867,9 @@ mxEditor.prototype.urlHelp = null;
 mxEditor.prototype.helpWidth = 300;
 	
 /**
- * Variable: helpWidth
+ * Variable: helpHeight
  * 
- * Specifies the width of the help window in pixels.
+ * Specifies the height of the help window in pixels.
  * Default is 260.
  */
 mxEditor.prototype.helpHeight = 260;
