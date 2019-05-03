@@ -48787,7 +48787,9 @@ mxCellRenderer.prototype.redrawLabel = function(state, forced)
 mxCellRenderer.prototype.isTextShapeInvalid = function(state, shape)
 {
 	function check(property, stylename, defaultValue)
-	{
+	{		
+		var result;
+		
 		// Workaround for spacing added to directional spacing
 		if (stylename == 'spacingTop' || stylename == 'spacingRight' ||
 			stylename == 'spacingBottom' || stylename == 'spacingLeft')
