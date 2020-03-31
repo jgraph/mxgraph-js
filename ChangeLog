@@ -1,4 +1,14 @@
-24-JAN-22020: 4.1.0
+31-MAR-2020: 4.1.1
+
+- Fixes use of userAgent to detect browsers and platforms
+- Reduces number of layout runs in mxLayoutManager
+- Adds resizeCell in mxGraphLayout
+- Adds eventName in mxLayoutManager.getLayout
+- Uses all layers in getSwimlaneAt
+- Fixes update of indicator shape after style change
+- Adds support for referenced font colors
+
+24-JAN-2020: 4.1.0
 
 - Adds mxEdgeHandler.isCellEnabled
 - Enables reflow in HTML output
